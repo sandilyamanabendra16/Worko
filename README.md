@@ -44,29 +44,41 @@ This will start the server on the port defined in your .env file (default is 500
 API Endpoints
 
 Examplie of api: http://localhost:5000
-
+There deployed backend URL is : https://worko-7ytq.onrender.com
 1) List All Users
 Endpoint: GET /api/worko/user
+OR
+GET https://worko-7ytq.onrender.com/worko/user
 Description: Retrieves a list of all users.
 
-2) Get User Details
+3) Get User Details
 Endpoint: GET /api/worko/user/:userId
+OR
+GET https://worko-7ytq.onrender.com/worko/user/:userId
 Description: Retrieves the details of a specific user by their ID.
 
-3) Create a New User
+5) Create a New User
 Endpoint: POST /api/worko/user
+OR
+POST https://worko-7ytq.onrender.com/worko/user/:userId
 Description: Creates a new user.
 
-4) Update an Existing User
+7) Update an Existing User
 Endpoint: PUT /api/worko/user/:userId
+OR
+PUT https://worko-7ytq.onrender.com/worko/user/:userId
 Description: Updates an existing user (replaces the user data).
 
-5) Partially Update a User
+9) Partially Update a User
 Endpoint: PATCH /api/worko/user/:userId
+OR
+PATCH https://worko-7ytq.onrender.com/worko/user/:userId
 Description: Updates specific fields of an existing user.
 
-6) Soft Delete a User
+11) Soft Delete a User
 Endpoint: DELETE /api/worko/user/:userId
+OR
+DELETE https://worko-7ytq.onrender.com/worko/user/:userId
 Description: Marks a user as deleted without physically removing the data.
 
 Example .env File
